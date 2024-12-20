@@ -1,0 +1,128 @@
+/* General Styles */  
+body {  
+    font-family: Arial, sans-serif;  
+    background-color:goldenrod;  
+    margin: 0;  
+    padding: 0;  
+    color: #333;  
+}  
+
+.container {  
+    max-width: 1200px;  
+    margin: 20px auto;  
+    padding: 20px;  
+    border-radius: 8px;  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+    background-color: #ffffff;  
+}  
+
+/* Navigation Bar */  
+nav {  
+    background-color: #007bff;  
+    padding: 10px;  
+    border-radius: 5px;  
+}  
+
+nav ul {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+
+nav ul li {  
+    display: inline;  
+    margin-right: 20px;  
+}  
+
+nav ul li a {  
+    text-decoration: none;  
+    color: white;  
+    font-weight: bold;  
+}  
+
+/* Headings */  
+h1 {  
+    text-align: center;  
+    color: #007bff; /* Primary color */  
+    margin-bottom: 20px;  
+}  
+
+h2, h3 {  
+    color: #555;  
+}  
+
+/* Movie List Styles */  
+.movie-list {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: space-between;  
+}  
+
+.movie-card {  
+    background: #f9f9f9;  
+    border: 1px solid #ddd;  
+    border-radius: 5px;  
+    margin: 10px;  
+    padding: 15px;  
+    width: calc(33% - 20px);  
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);  
+    transition: transform 0.2s;  
+}  
+
+.movie-card:hover {  
+    transform: scale(1.05);  
+}  
+
+.movie-card h4 {  
+    margin-top: 0;  
+}  
+
+.movie-card p {  
+    margin: 10px 0;  
+}  
+
+/* Button Styles */  
+button {  
+    background-color: #007bff;  
+    border: none;  
+    border-radius: 5px;  
+    color: white;  
+    padding: 10px 15px;  
+    cursor: pointer;  
+    transition: background 0.2s;  
+}  
+
+button:hover {  
+    background-color: #0056b3;  
+}  
+
+/* Form Styles */  
+form {  
+    display: flex;  
+    flex-direction: column;  
+    margin-bottom: 20px;  
+}  
+
+form input[type="text"] {  
+    margin-bottom: 10px;  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+}  
+
+form input[type="submit"] {  
+    margin-top: 10px;  
+}  
+
+/* Footer */  
+footer {  
+    text-align: center;  
+    margin-top: 20px;  
+    font-size: 14px;  
+    color: #777;  
+}  
+
+/* About Page Styles */  
+.about {  
+    margin: 20px 0;  
+    line-height: 1.6;  
+}
